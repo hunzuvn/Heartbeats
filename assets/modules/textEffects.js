@@ -33,7 +33,7 @@ export function createTextEffects(scene, streamHeart, appData, heartData) {
     scene.add(ribbon);
 
     // === LOGIC MỚI: TẠO 2 BỘ RUY-BĂNG ===
-    const verticalSpacing = 1.5;
+    const verticalSpacing = 1.0;
     
     // Vòng lặp 2 lần để tạo 2 bộ
     for (let lap = 0; lap < 2; lap++) {
