@@ -1,2 +1,5 @@
 /index.html
-  Cache-Control: no-cache
+  Cache-Control: no-store
+
+/assets/main.js
+  Cache-Control: no-store
