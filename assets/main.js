@@ -145,7 +145,6 @@ class App {
   const currentVersion = localStorage.getItem('site_version');
 
   if (currentVersion && currentVersion !== latestVersion.trim()) {
-    // Có bản mới => xoá cache và reload
     localStorage.removeItem('site_version');
     caches.keys().then(names => names.forEach(n => caches.delete(n)));
     location.reload(true);

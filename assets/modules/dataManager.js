@@ -39,7 +39,7 @@ function setupMusicPlayer(musicUrl) {
 export function loadDataFromURL() {
     applyCss();
     let appData = {
-        messages: ["😭","Chào con vợ MTam", "anh yêu con vợ vl", "con heo thon thả của anh", "❤️ ❤️" , "mãi bên nhau bạn nhé",  ],
+        messages: ["😭","Chào con vợ MTam", "anh yêu con vợ vl", "con heo thon thả của anh", "❤️ ❤️ ❤️" , "mãi bên nhau bạn nhé",  ],
         images: [],
         heartColor: "#ff9090",
         music: null,
